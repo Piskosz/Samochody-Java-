@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e24dba1-79ee-4127-a3bc-b0d560e22e5b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_3.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Przeglad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Przeglad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Przeglad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Przeglad.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,22 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/Tomek/Documents/GitHub/javafx-archetype-fxml/src/main/resources/org/openjfx/javafxarchetypefxml",
-    "last_opened_file_path": "C:/Users/pisko/Desktop/Samochody-Java-",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Tomek/Documents/GitHub/javafx-archetype-fxml/src/main/resources/org/openjfx/javafxarchetypefxml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pisko/Desktop/Samochody-Java-&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tomek\Documents\GitHub\javafx-archetype-fxml\src\main\java\org\openjfx\javafxarchetypefxml" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.openjfx.javafxarchetypefxml" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Przeglad">
@@ -57,7 +66,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.openjfx.javafxarchetypefxml.Przeglad" />
-      <module name="Samochody-Java-" />
+      <module name="javafx-archetype-fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.openjfx.javafxarchetypefxml.*" />
@@ -72,7 +81,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.openjfx.javafxarchetypefxml.Start1" />
-      <module name="Samochody-Java-" />
+      <module name="javafx-archetype-fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.openjfx.javafxarchetypefxml.*" />
