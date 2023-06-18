@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.Priority?>
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.javafxarchetypefxml.Start2">
+    <children>
+        <ImageView fitHeight="582.0" fitWidth="417.0" layoutX="14.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="243.0" fitWidth="422.0" layoutX="216.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+        <Text layoutX="239.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Car Rental">
+            <font>
+                <Font size="60.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="65.0" fitWidth="287.0" layoutX="276.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="65.0" fitWidth="287.0" layoutX="276.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="65.0" fitWidth="287.0" layoutX="276.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true" />
+        <TextField layoutX="310.0" layoutY="369.0" promptText="e-mail" />
+        <TextField layoutX="310.0" layoutY="269.0" promptText="Hasło" />
+        <TextField layoutX="310.0" layoutY="176.0" promptText="Login" />
+        <Button layoutX="276.0" layoutY="519.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="287.0" text="Zarejestruj" onAction="#ZarejestrujB" />
+    </children>
+    <VBox.vgrow>
+    </VBox.vgrow>
+</AnchorPane>
