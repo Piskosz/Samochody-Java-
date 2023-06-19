@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e24dba1-79ee-4127-a3bc-b0d560e22e5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/64138b4d0e220_o_original.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/image/64138b4d0e220_o_original.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Przeglad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Przeglad.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start3.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "20",
     "last_directory_selection": "C:/Users/Tomek/Documents/GitHub/javafx-archetype-fxml/src/main/resources/org/openjfx/javafxarchetypefxml",
-    "last_opened_file_path": "C:/Users/pisko/Desktop/Samochody-Java-/src/main/java/com/example/image",
+    "last_opened_file_path": "C:/Users/pisko/Desktop/Samochody-Java-/src/main/resources/image",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4954023",
@@ -59,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pisko\Desktop\Samochody-Java-\src\main\resources\image" />
       <recent name="C:\Users\pisko\Desktop\Samochody-Java-\src\main\java\com\example\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -67,8 +64,11 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.openjfx.javafxarchetypefxml" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Start2">
+  <component name="RunManager" selected="Application.Przeglad">
     <configuration name="Auto_nr_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -151,9 +151,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Przeglad" />
         <item itemvalue="Application.Start2" />
         <item itemvalue="Application.Start1" />
-        <item itemvalue="Application.Przeglad" />
         <item itemvalue="Application.Start3" />
         <item itemvalue="Application.Auto_nr_1" />
       </list>
