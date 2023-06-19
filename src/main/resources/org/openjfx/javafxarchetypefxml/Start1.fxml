@@ -11,11 +11,11 @@
 <?import javafx.geometry.Insets?>
 <AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.javafxarchetypefxml.Start1">
     <children>
-        <ImageView fx:id="imageViewOp5" fitHeight="498.0" fitWidth="424.0" layoutX="88.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="imageView2Op5" fitHeight="243.0" fitWidth="422.0" layoutX="89.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="imageViewOp51" fitHeight="498.0" fitWidth="424.0" layoutX="88.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="imageView2Op51" fitHeight="243.0" fitWidth="422.0" layoutX="89.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
         <VBox alignment="CENTER" layoutX="139.0" layoutY="71.0" prefHeight="200.0" prefWidth="322.0" spacing="10.0">
             <children>
-                <Text fx:id="textView" fill="#000000" strokeType="OUTSIDE" strokeWidth="0.0" text="Car Rental">
+                <Text fx:id="textView1" fill="#000000" strokeType="OUTSIDE" strokeWidth="0.0" text="Car Rental">
                     <font>
                         <Font name="System" size="60.0" />
                     </font>

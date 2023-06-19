@@ -7,6 +7,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -26,8 +27,13 @@ import okhttp3.Response;
 import java.io.IOException;
 
 public class Start2 extends Application {
+    @FXML
     private TextField loginTextField;
+
+    @FXML
     private TextField hasloTextField;
+
+    @FXML
     private TextField mailTextField;
     @FXML
     private AnchorPane rootPane;
@@ -76,14 +82,8 @@ public class Start2 extends Application {
     }
 
     private boolean isValidInput(String login, String haslo, String mail) {
-        // Sprawdź poprawność danych logowania
         if (login.isEmpty() || haslo.isEmpty() || mail.isEmpty()) {
-            Platform.runLater(new Runnable() {
-                @Override
-                public void run() {
-                    showAlert("Wprowadź wszystkie dane");
-                }
-            });
+            Platform.runLater(() -> showAlert("Wprowadź wszystkie dane"));
             return false;
         }
 
@@ -102,43 +102,33 @@ public class Start2 extends Application {
             @Override
             public void onFailure(Call call, IOException e) {
                 e.printStackTrace();
-                Platform.runLater(new Runnable() {
-                    @Override
-                    public void run() {
-                        showAlert("Błąd podczas rejestracji");
-                    }
-                });
+                Platform.runLater(() -> showAlert("Błąd podczas rejestracji"));
             }
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 if (response.isSuccessful()) {
-                    Platform.runLater(new Runnable() {
-                        @Override
-                        public void run() {
-                            showAlert("Rejestracja zakończona sukcesem");
-                            openLogowanie2();
-                        }
+                    Platform.runLater(() -> {
+                        showAlert("Rejestracja zakończona sukcesem");
+                        openLogowanie2();
                     });
                 } else {
-                    Platform.runLater(new Runnable() {
-                        @Override
-                        public void run() {
-                            showAlert("Błąd rejestracji");
-                        }
-                    });
+                    Platform.runLater(() -> showAlert("Błąd rejestracji: " + response.code() + " " + response.message()));
                 }
             }
         });
     }
 
     public void openLogowanie2() {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("start1.fxml"));
-            AnchorPane logowaniePane = loader.load();
-            rootPane.getChildren().setAll(logowaniePane);
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (isValidInput(loginTextField.getText(), hasloTextField.getText(), mailTextField.getText())) {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("Start3.fxml"));
+                Parent root = loader.load();
+                Scene scene = rootPane.getScene();
+                scene.setRoot(root);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -149,12 +139,13 @@ public class Start2 extends Application {
         alert.setContentText(message);
         alert.showAndWait();
     }
+
     @FXML
     public void ZarejestrujB(ActionEvent actionEvent) {
         openLogowanie2();
     }
+
     public static void main(String[] args) {
         launch(args);
     }
-
 }
