@@ -3,7 +3,7 @@ module org.openjfx.javafxarchetypefxml {
     requires javafx.fxml;
     requires okhttp3;
     requires json;
-    requires gson;
+    //requires gson;
 
 
     opens org.openjfx.javafxarchetypefxml to javafx.fxml;

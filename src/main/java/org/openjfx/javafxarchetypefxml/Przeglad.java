@@ -67,32 +67,49 @@ public class Przeglad extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-    public void zmiana() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_1.fxml"));
-        Parent root = loader.load();
-
-        Scene scene = new Scene(root);
-        Stage stage = new Stage();
-        stage.setScene(scene);
-        stage.show();
+    private void zmiana1() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_1.fxml"));
+            AnchorPane rejestracjaPane = loader.load();
+            rootPane.getChildren().setAll(rejestracjaPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    public void zmiana2() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_2.fxml"));
-        Parent root = loader.load();
 
-        Scene scene = new Scene(root);
-        Stage stage = new Stage();
-        stage.setScene(scene);
-        stage.show();
+    @FXML
+    private void przycisk1(ActionEvent event) {
+        zmiana1();
     }
-    public void zmiana3() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_3.fxml"));
-        Parent root = loader.load();
+    private void zmiana2() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_2.fxml"));
+            AnchorPane rejestracjaPane = loader.load();
+            rootPane.getChildren().setAll(rejestracjaPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-        Scene scene = new Scene(root);
-        Stage stage = new Stage();
-        stage.setScene(scene);
-        stage.show();
+
+    @FXML
+    private void przycisk2(ActionEvent event) {
+        zmiana2();
+    }
+    private void zmiana3() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_3.fxml"));
+            AnchorPane rejestracjaPane = loader.load();
+            rootPane.getChildren().setAll(rejestracjaPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    @FXML
+    private void przycisk3(ActionEvent event) {
+        zmiana3();
     }
 }
 

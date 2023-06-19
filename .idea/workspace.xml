@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e24dba1-79ee-4127-a3bc-b0d560e22e5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/com/example/demo/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/car_rental/Start1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_wyp_1.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/car_rental/Start1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Start2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Start2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Przeglad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Przeglad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Przeglad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Przeglad.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "20",
     "last_directory_selection": "C:/Users/Tomek/Documents/GitHub/javafx-archetype-fxml/src/main/resources/org/openjfx/javafxarchetypefxml",
-    "last_opened_file_path": "C:/Users/Tomek/Documents/GitHub/Samochody/demo",
+    "last_opened_file_path": "C:/Users/pisko/Desktop/Samochody-Java-",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4954023",
@@ -90,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start1">
+  <component name="RunManager" selected="Application.Przeglad">
     <configuration name="Auto_nr_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -107,10 +88,10 @@
       </method>
     </configuration>
     <configuration name="Przeglad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.openjfx.javafxarchetypefxml.Przeglad" />
-      <module name="javafx-archetype-fxml" />
+      <module name="Samochody-Java-" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.openjfx.javafxarchetypefxml.*" />
@@ -122,10 +103,10 @@
       </method>
     </configuration>
     <configuration name="Start1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.openjfx.javafxarchetypefxml.Start1" />
-      <module name="javafx-archetype-fxml" />
+      <module name="Samochody-Java-" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.openjfx.javafxarchetypefxml.*" />
@@ -175,9 +156,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Przeglad" />
         <item itemvalue="Application.Start1" />
         <item itemvalue="Application.Start2" />
-        <item itemvalue="Application.Przeglad" />
         <item itemvalue="Application.Start3" />
         <item itemvalue="Application.Auto_nr_1" />
       </list>
