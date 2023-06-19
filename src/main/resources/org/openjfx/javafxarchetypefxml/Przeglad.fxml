@@ -7,20 +7,20 @@
 
 <AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.javafxarchetypefxml.Przeglad">
    <children>
-      <Button layoutX="289.0" layoutY="60.0" mnemonicParsing="false" onAction="#przycisk1" prefHeight="32.0" prefWidth="118.0" style="-fx-background-color: yellow;" text="Wybierz" />
-      <Button layoutX="289.0" layoutY="184.0" mnemonicParsing="false" onAction="#przycisk2" prefHeight="32.0" prefWidth="117.0" style="-fx-background-color: yellow;" text="Wybierz" />
-      <Button layoutX="294.0" layoutY="300.0" mnemonicParsing="false" onAction="#przycisk3" prefHeight="32.0" prefWidth="107.0" style="-fx-background-color: yellow;" text="Wybierz" />
-      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="143.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <Button layoutX="342.0" layoutY="60.0" mnemonicParsing="false" onAction="#przycisk1" prefHeight="32.0" prefWidth="118.0" style="-fx-background-color: gray;" text="Wypożycz" />
+      <Button layoutX="342.0" layoutY="184.0" mnemonicParsing="false" onAction="#przycisk2" prefHeight="32.0" prefWidth="117.0" style="-fx-background-color: gray;" text="Wypożycz" />
+      <Button layoutX="347.0" layoutY="300.0" mnemonicParsing="false" onAction="#przycisk3" prefHeight="32.0" prefWidth="107.0" style="-fx-background-color: gray;" text="Wypożycz" />
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="165.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/64138b4d0e220_o_original.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="143.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="164.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/img.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="143.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="165.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/img_1.png" />
          </image>
