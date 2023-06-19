@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e24dba1-79ee-4127-a3bc-b0d560e22e5b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/AutoWyp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/AutoWyp2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/AutoWyp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/AutoWyp3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
