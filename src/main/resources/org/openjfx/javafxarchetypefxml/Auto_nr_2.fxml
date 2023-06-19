@@ -8,6 +8,6 @@
    <children>
       <Button layoutX="109.0" layoutY="90.0" onAction="#openWybor2" text="Zrezygnuj" />
       <Button layoutX="442.0" layoutY="90.0" onAction="#openData" text="Wypożycz" />
-      <TextArea fx:id="dataTextArea3" layoutX="109.0" layoutY="129.0" prefHeight="247.0" prefWidth="403.0" text="Szczegółowe informacje na temat auta:&#10;Toyota Yaris 2020&#10;" />
+      <TextArea fx:id="dataTextArea3" layoutX="109.0" layoutY="129.0" prefHeight="247.0" prefWidth="403.0" text="Szczegółowe informacje na temat auta:&#10;Ford Mustang 2018&#10;" />
    </children>
 </AnchorPane>
