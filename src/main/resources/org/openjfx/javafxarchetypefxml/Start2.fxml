@@ -22,7 +22,7 @@
                 <TextField fx:id="loginTextField" promptText="Login" style="-fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);" />
                 <TextField fx:id="hasloTextField" promptText="Hasło" style="-fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);" />
                 <TextField fx:id="mailTextField" promptText="e-mail" style="-fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);" />
-                <Button fx:id="zarejestrujButton" maxHeight="80.0" maxWidth="278.0" minHeight="65.0" minWidth="278.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #3cb371; -fx-text-fill: #ffffff;" text="Rejestracja" onAction="#ZarejestrujB">
+                <Button fx:id="zarejestrujButton" maxHeight="80.0" maxWidth="278.0" minHeight="65.0" minWidth="278.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #3cb371; -fx-text-fill: #ffffff;" text="Rejestracja" onAction="#handleZarejestrujButtonAction">
                     <font>
                         <Font name="System" size="32.0" />
                     </font>
