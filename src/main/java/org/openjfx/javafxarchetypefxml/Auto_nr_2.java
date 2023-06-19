@@ -1,9 +1,12 @@
 package org.openjfx.javafxarchetypefxml;
 import javafx.application.Application;
 import javafx.concurrent.Task;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import okhttp3.OkHttpClient;
@@ -17,6 +20,8 @@ import java.io.IOException;
 
 public class Auto_nr_2 extends Application {
     private TextArea dataTextArea;
+    @FXML
+    private AnchorPane rootPane;
 
     @Override
     public void start(Stage primaryStage) {
@@ -62,11 +67,23 @@ public class Auto_nr_2 extends Application {
     }
 
     public void openWybor2() {
-        // tu dodaj cofanie sie
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Przeglad.fxml"));
+            AnchorPane rejestracjaPane = loader.load();
+            rootPane.getChildren().setAll(rejestracjaPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void openData() {
-        // tu masz do nastepnego okna co tam wymyslisz
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_wyp_1.fxml"));
+            AnchorPane rejestracjaPane = loader.load();
+            rootPane.getChildren().setAll(rejestracjaPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private void processResult(String result) {

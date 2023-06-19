@@ -2,11 +2,10 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextArea?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.javafxarchetypefxml.Auto_nr_1">
-    <Button text="Zrezygnuj" onAction="#openWybor2"/>
-    <Button text="Wypożycz" onAction="#openData"/>
-    <TextArea fx:id="dataTextArea3"/>
+
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.javafxarchetypefxml.Auto_nr_1">
+    <Button layoutX="90.0" layoutY="84.0" onAction="#openWybor2" text="Zrezygnuj" />
+    <Button layoutX="423.0" layoutY="84.0" onAction="#openData" text="Wypożycz" />
+    <TextArea fx:id="dataTextArea3" layoutX="90.0" layoutY="123.0" prefHeight="247.0" prefWidth="403.0" text="Szczegółowe informacje na temat auta:&#10;Toyota Yaris 2020&#10;" />
 </AnchorPane>
