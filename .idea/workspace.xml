@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e24dba1-79ee-4127-a3bc-b0d560e22e5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/AutoWyp1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Auto_nr_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_wyp_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_wyp_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Wyp_Auto_1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Wyp_Auto_2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Wyp_Auto_3.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Auto_nr_3.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.openjfx.javafxarchetypefxml.Start2" />
-      <module name="javafx-archetype-fxml" />
+      <module name="Samochody-Java-" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.openjfx.javafxarchetypefxml.*" />
@@ -158,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Start1" />
-        <item itemvalue="Application.Przeglad" />
-        <item itemvalue="Application.Auto_nr_1" />
         <item itemvalue="Application.Start2" />
         <item itemvalue="Application.Start3" />
+        <item itemvalue="Application.Przeglad" />
+        <item itemvalue="Application.Auto_nr_1" />
       </list>
     </recent_temporary>
   </component>

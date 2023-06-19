@@ -69,7 +69,13 @@ public class Auto_nr_1 extends Application {
 
 
     public void openWybor2() {
-        // tu dodaj cofanie sie
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Przeglad.fxml"));
+            AnchorPane rejestracjaPane = loader.load();
+            rootPane.getChildren().setAll(rejestracjaPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void openData() {
