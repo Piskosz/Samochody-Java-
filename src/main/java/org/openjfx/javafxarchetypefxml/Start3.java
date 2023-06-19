@@ -149,9 +149,10 @@ public class Start3 extends Application {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Przeglad.fxml"));
                 Parent root = loader.load();
-                Stage stage = new Stage();
-                stage.setScene(new Scene(root));
-                stage.show();
+                Scene scene = loginButton.getScene(); // Przykładowy przycisk (button) na scenie, z którego wywołujesz to zdarzenie
+                Stage stage = (Stage) scene.getWindow(); // Pobranie referencji do aktualnego Stage
+                stage.setScene(new Scene(root)); // Ustawienie nowej sceny w oknie
+
             } catch (IOException e) {
                 e.printStackTrace();
             }

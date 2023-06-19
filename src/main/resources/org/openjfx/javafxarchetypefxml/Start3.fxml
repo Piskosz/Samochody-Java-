@@ -21,7 +21,7 @@
                 </Text>
                 <TextField fx:id="loginTextField" promptText="Login" style="-fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);" />
                 <TextField fx:id="hasloTextField" promptText="Hasło" style="-fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);" />
-                <Button fx:id="Log_but" maxHeight="80.0" maxWidth="278.0" minHeight="65.0" minWidth="278.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #3cb371; -fx-text-fill: #ffffff;" text="Logowanie" onAction="#loginUser">
+                <Button fx:id="loginButton" maxHeight="80.0" maxWidth="278.0" minHeight="65.0" minWidth="278.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #3cb371; -fx-text-fill: #ffffff;" text="Logowanie" onAction="#loginUser">
                     <font>
                         <Font name="System" size="32.0" />
                     </font>
