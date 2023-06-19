@@ -5,25 +5,21 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.javafxarchetypefxml.Przeglad">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.javafxarchetypefxml.Przeglad">
    <children>
-      <Button layoutX="300.0" layoutY="32.0" mnemonicParsing="false" onAction="#zmiana" prefHeight="77.0" prefWidth="128.0" text="Button" />
-      <Button layoutX="300.0" layoutY="144.0" mnemonicParsing="false" onAction="#zmiana2" prefHeight="77.0" prefWidth="128.0" text="Button" />
-      <Button layoutX="300.0" layoutY="248.0" mnemonicParsing="false" onAction="#zmiana3" prefHeight="77.0" prefWidth="128.0" text="Button" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="48.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+      <Button layoutX="436.0" layoutY="30.0" mnemonicParsing="false" onAction="#zmiana" prefHeight="32.0" prefWidth="118.0" text="Wybierz" />
+      <Button layoutX="436.0" layoutY="135.0" mnemonicParsing="false" onAction="#zmiana2" prefHeight="32.0" prefWidth="117.0" text="Wybierz" />
+      <Button layoutX="439.0" layoutY="252.0" mnemonicParsing="false" onAction="#zmiana3" prefHeight="32.0" prefWidth="107.0" text="Wybierz" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Overlay_start.png" />
+            <Image url="@../../../image/64138b4d0e220_o_original.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Overlay_start.png" />
+            <Image url="@../../../../../../../TEST.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="48.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../../../../Overlay_start.png" />
-         </image>
-      </ImageView>
+      <Button layoutX="289.0" layoutY="135.0" mnemonicParsing="false" onAction="#zmiana2" prefHeight="32.0" prefWidth="117.0" text="Wybierz" />
    </children>
 </AnchorPane>
