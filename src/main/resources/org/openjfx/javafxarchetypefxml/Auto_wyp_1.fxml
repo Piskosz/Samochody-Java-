@@ -32,6 +32,6 @@
             <Font size="25.0" />
          </font>
       </Text>
-      <Button layoutX="255.0" layoutY="316.0" mnemonicParsing="false" onAction="#przycisk1" style="-fx-background-color: gray;" text="Potwierdzenie" />
+      <Button layoutX="255.0" layoutY="316.0" mnemonicParsing="false" onAction="#przycisk1" style="-fx-background-color: blue;" text="Potwierdzenie" textFill="WHITE" />
    </children>
 </AnchorPane>
