@@ -25,14 +25,7 @@
       <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/HelloController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo1/src/main/java/module-info.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Start2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Start2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Start3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/javafxarchetypefxml/Start3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/javafxarchetypefxml/Start3.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "20",
     "last_directory_selection": "C:/Users/Tomek/Documents/GitHub/javafx-archetype-fxml/src/main/resources/org/openjfx/javafxarchetypefxml",
-    "last_opened_file_path": "C:/Users/Tomek/Documents/GitHub/Samochody/demo",
+    "last_opened_file_path": "C:/Users/Tomek/Documents/GitHub/Samochody-Java-",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4954023",
