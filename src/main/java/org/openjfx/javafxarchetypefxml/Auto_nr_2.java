@@ -77,7 +77,13 @@ public class Auto_nr_2 extends Application {
     }
 
     public void openData() {
-        // tu masz do nastepnego okna co tam wymyslisz
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_wyp_1.fxml"));
+            AnchorPane rejestracjaPane = loader.load();
+            rootPane.getChildren().setAll(rejestracjaPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private void processResult(String result) {
