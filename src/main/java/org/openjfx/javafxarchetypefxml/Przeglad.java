@@ -1,59 +1,53 @@
 package org.openjfx.javafxarchetypefxml;
 
 import javafx.application.Application;
-import javafx.collections.ObservableList;
-import javafx.geometry.Insets;
-import javafx.scene.Parent;
+
 import javafx.scene.Scene;
-import javafx.scene.control.ListView;
-import javafx.scene.control.SelectionMode;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
-import javafx.stage.Window;
-import javafx.application.Application;
-import javafx.application.Platform;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.geometry.Insets;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.VBox;
+
 import javafx.stage.Stage;
 
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+
+import javafx.scene.layout.AnchorPane;
+
+
 
 import java.io.IOException;
 
+/**
+ * The main application class for Przeglad.
+ */
 public class Przeglad extends Application {
     private Stage primaryStage;
     @FXML
     private AnchorPane rootPane;
-
+    /**
+     * Default constructor.
+     */
+    public Przeglad() {
+        // Default constructor
+    }
+    /**
+     * The entry point for the Java application.
+     *
+     * @param args the command-line arguments
+     */
     public static void main(String[] args) {
         launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) {
-
         this.primaryStage = primaryStage;
         primaryStage.setTitle("Wybór samochodów");
         createRootPane();
         showStartView();
-
-
     }
+
+    /**
+     * Creates the root pane by loading the FXML file.
+     */
     private void createRootPane() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Przeglad.fxml"));
@@ -62,11 +56,19 @@ public class Przeglad extends Application {
             e.printStackTrace();
         }
     }
+
+    /**
+     * Shows the start view by setting the root pane in the primary stage.
+     */
     private void showStartView() {
         Scene scene = new Scene(rootPane);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
+    /**
+     * Performs the necessary changes to switch to Auto_nr_1 view.
+     */
     private void zmiana1() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_1.fxml"));
@@ -78,9 +80,13 @@ public class Przeglad extends Application {
     }
 
     @FXML
-    private void przycisk1(ActionEvent event) {
+    private void przycisk1() {
         zmiana1();
     }
+
+    /**
+     * Performs the necessary changes to switch to Auto_nr_2 view.
+     */
     private void zmiana2() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_2.fxml"));
@@ -91,11 +97,14 @@ public class Przeglad extends Application {
         }
     }
 
-
     @FXML
-    private void przycisk2(ActionEvent event) {
+    private void przycisk2() {
         zmiana2();
     }
+
+    /**
+     * Performs the necessary changes to switch to Auto_nr_3 view.
+     */
     private void zmiana3() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_nr_3.fxml"));
@@ -106,9 +115,8 @@ public class Przeglad extends Application {
         }
     }
 
-
     @FXML
-    private void przycisk3(ActionEvent event) {
+    private void przycisk3() {
         zmiana3();
     }
 }

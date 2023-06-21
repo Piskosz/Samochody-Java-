@@ -2,7 +2,6 @@ package org.openjfx.javafxarchetypefxml;
 
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
@@ -22,7 +21,9 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 import java.io.IOException;
-
+/**
+ * The main application class for Start3.
+ */
 public class Start3 extends Application {
 
     @FXML
@@ -42,6 +43,15 @@ public class Start3 extends Application {
 
     private OkHttpClient client;
 
+    /**
+     * Default constructor.
+     */
+    public Start3() {
+        // Default constructor
+    }
+    /**
+     * Handles the action when the login button is clicked.
+     */
     @FXML
     private void loginUser() {
         if (client == null) {
@@ -82,7 +92,9 @@ public class Start3 extends Application {
             }
         });
     }
-
+    /**
+     * Default constructor.
+     */
     @Override
     public void start(Stage primaryStage) {
         try {
@@ -92,9 +104,7 @@ public class Start3 extends Application {
             loginTextField = new TextField();
             hasloTextField = new TextField();
 
-            // Inicjalizacja klienta OkHttp
             client = new OkHttpClient();
-
 
             Button zalogujButton = new Button("Zaloguj");
             zalogujButton.setOnAction(event -> {
@@ -118,6 +128,11 @@ public class Start3 extends Application {
         }
     }
 
+    /**
+     * Validates the input fields.
+     *
+     * @return true if the input is valid, false otherwise
+     */
     private boolean isValidInput() {
         String login = loginTextField.getText().trim();
         String haslo = hasloTextField.getText().trim();
@@ -140,7 +155,9 @@ public class Start3 extends Application {
         return true;
     }
 
-
+    /**
+     * Opens the wybor1 view.
+     */
     public void openWybor1() {
         String login = loginTextField.getText().trim();
         String haslo = hasloTextField.getText().trim();
@@ -149,16 +166,20 @@ public class Start3 extends Application {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Przeglad.fxml"));
                 Parent root = loader.load();
-                Scene scene = loginButton.getScene(); // Przykładowy przycisk (button) na scenie, z którego wywołujesz to zdarzenie
-                Stage stage = (Stage) scene.getWindow(); // Pobranie referencji do aktualnego Stage
-                stage.setScene(new Scene(root)); // Ustawienie nowej sceny w oknie
-
+                Scene scene = loginButton.getScene();
+                Stage stage = (Stage) scene.getWindow();
+                stage.setScene(new Scene(root));
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
 
+    /**
+     * Displays an alert dialog with the given message.
+     *
+     * @param message the message to display
+     */
     public void showAlert(String message) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Informacja");
@@ -167,6 +188,11 @@ public class Start3 extends Application {
         alert.showAndWait();
     }
 
+    /**
+     * The entry point for the Java application.
+     *
+     * @param args the command-line arguments
+     */
     public static void main(String[] args) {
         launch(args);
     }

@@ -15,6 +15,9 @@ import okhttp3.*;
 
 import java.io.IOException;
 
+/**
+ * The main application class for Start2.
+ */
 public class Start2 extends Application {
     @FXML
     private TextField loginTextField;
@@ -27,6 +30,15 @@ public class Start2 extends Application {
 
     private OkHttpClient client;
 
+    /**
+     * Default constructor.
+     */
+    public Start2() {
+        // Default constructor
+    }
+    /**
+     * Handles the action when the "Zarejestruj" button is clicked.
+     */
     @FXML
     private void handleZarejestrujButtonAction() {
         String login = loginTextField.getText().trim();
@@ -49,9 +61,7 @@ public class Start2 extends Application {
             primaryStage.setTitle("Start2");
             primaryStage.show();
 
-
-
-            // Pobranie kontrolerów z pliku FXML
+            // Retrieve the controller from the FXML file
             Start2 controller = loader.getController();
             controller.setPrimaryStage(primaryStage);
         } catch (IOException e) {
@@ -59,8 +69,12 @@ public class Start2 extends Application {
         }
     }
 
+    /**
+     * Sets the primary stage and initializes the UI elements.
+     *
+     * @param primaryStage the primary stage
+     */
     public void setPrimaryStage(Stage primaryStage) {
-        // Inicjalizacja pól tekstowych i przycisku za pomocą kontrolek z FXML
         loginTextField = new TextField();
         hasloTextField = new TextField();
         mailTextField = new TextField();
@@ -68,14 +82,20 @@ public class Start2 extends Application {
         Button button = new Button("Zarejestruj");
         button.setOnAction(event -> handleZarejestrujButtonAction());
 
-        // Dodanie kontrolek do rodzica (AnchorPane) z FXML
         AnchorPane rootPane = (AnchorPane) loginTextField.getParent().getParent();
         rootPane.getChildren().addAll(loginTextField, hasloTextField, mailTextField, button);
 
-        // Inicjalizacja klienta OkHttp
         client = new OkHttpClient();
     }
 
+    /**
+     * Validates the input fields.
+     *
+     * @param login the login text
+     * @param haslo the password text
+     * @param mail  the email text
+     * @return true if the input is valid, false otherwise
+     */
     private boolean isValidInput(String login, String haslo, String mail) {
         if (login.isEmpty() || haslo.isEmpty() || mail.isEmpty()) {
             showAlert("Wprowadź wszystkie dane");
@@ -84,6 +104,13 @@ public class Start2 extends Application {
         return true;
     }
 
+    /**
+     * Registers the user by sending a POST request to the server.
+     *
+     * @param login the login text
+     * @param haslo the password text
+     * @param mail  the email text
+     */
     private void registerUser(String login, String haslo, String mail) {
         client = new OkHttpClient();
         String json = "[{\"login\": \"" + login + "\", \"haslo\": \"" + haslo + "\", \"mail\": \"" + mail + "\"}]";
@@ -112,6 +139,11 @@ public class Start2 extends Application {
         });
     }
 
+    /**
+     * Displays an alert dialog with the given message.
+     *
+     * @param message the message to display
+     */
     private void showAlert(String message) {
         Platform.runLater(() -> {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -122,6 +154,9 @@ public class Start2 extends Application {
         });
     }
 
+    /**
+     * Opens the logowanie view.
+     */
     private void openLogowanie2() {
         Platform.runLater(() -> {
             try {
@@ -140,6 +175,11 @@ public class Start2 extends Application {
         });
     }
 
+    /**
+     * The entry point for the Java application.
+     *
+     * @param args the command-line arguments
+     */
     public static void main(String[] args) {
         launch(args);
     }

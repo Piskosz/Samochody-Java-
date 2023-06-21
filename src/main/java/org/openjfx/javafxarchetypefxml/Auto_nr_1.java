@@ -18,12 +18,26 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 
+/**
+ * The main application class for Auto_nr_1.
+ */
 public class Auto_nr_1 extends Application {
     private TextArea dataTextArea;
     private Stage primaryStage;
     @FXML
     private AnchorPane rootPane;
 
+    /**
+     * Default constructor.
+     */
+    public Auto_nr_1() {
+        // Default constructor
+    }
+    /**
+     * The entry point for the JavaFX application.
+     *
+     * @param primaryStage the primary stage for the application
+     */
     @Override
     public void start(Stage primaryStage) {
         Button button1 = new Button("Zrezygnuj");
@@ -67,7 +81,9 @@ public class Auto_nr_1 extends Application {
         fetchDataThread.start();
     }
 
-
+    /**
+     * Opens the wybor2 view.
+     */
     public void openWybor2() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Przeglad.fxml"));
@@ -78,6 +94,9 @@ public class Auto_nr_1 extends Application {
         }
     }
 
+    /**
+     * Opens the data view.
+     */
     public void openData() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Auto_wyp_1.fxml"));
@@ -88,6 +107,11 @@ public class Auto_nr_1 extends Application {
         }
     }
 
+    /**
+     * Processes the fetched result from the server.
+     *
+     * @param result the fetched result as a string
+     */
     private void processResult(String result) {
         JSONArray jsonArray = new JSONArray(result);
 
@@ -110,6 +134,11 @@ public class Auto_nr_1 extends Application {
         }
     }
 
+    /**
+     * The entry point for the Java application.
+     *
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         launch(args);
     }

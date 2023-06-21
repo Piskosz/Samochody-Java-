@@ -2,22 +2,32 @@ package org.openjfx.javafxarchetypefxml;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
+/**
+ * The main application class for Start1.
+ */
 public class Start1 extends Application {
     private Stage primaryStage;
     @FXML
     private AnchorPane rootPane;
+
+    /**
+     * Default constructor.
+     */
+    public Start1() {
+        // Default constructor
+    }
+    /**
+     * The entry point for the Java application.
+     *
+     * @param args the command-line arguments
+     */
 
     public static void main(String[] args) {
         launch(args);
@@ -32,6 +42,9 @@ public class Start1 extends Application {
         showStartView();
     }
 
+    /**
+     * Creates the root pane by loading the FXML file.
+     */
     private void createRootPane() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Start1.fxml"));
@@ -41,12 +54,18 @@ public class Start1 extends Application {
         }
     }
 
+    /**
+     * Shows the start view by setting the root pane in the primary stage.
+     */
     private void showStartView() {
         Scene scene = new Scene(rootPane);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
 
+    /**
+     * Switches to the logowanie view by loading and displaying the Start2.fxml file.
+     */
     private void showLogowanieView() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Start2.fxml"));
@@ -57,6 +76,9 @@ public class Start1 extends Application {
         }
     }
 
+    /**
+     * Switches to the rejestracja view by loading and displaying the Start3.fxml file.
+     */
     private void showRejestracjaView() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Start3.fxml"));
@@ -67,12 +89,21 @@ public class Start1 extends Application {
         }
     }
 
-
+    /**
+     * Event handler for the logowanie button click.
+     *
+     * @param event the action event
+     */
     @FXML
     private void onLogowanieButtonClicked(ActionEvent event) {
         showLogowanieView();
     }
 
+    /**
+     * Event handler for the rejestracja button click.
+     *
+     * @param event the action event
+     */
     @FXML
     private void onRejestracjaButtonClicked(ActionEvent event) {
         showRejestracjaView();

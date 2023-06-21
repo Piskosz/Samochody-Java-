@@ -8,12 +8,31 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+/**
+ * The main application class for Start1.
+ */
 public class Start1 extends Application {
 
+    /**
+     * Default constructor.
+     */
+    public Start1() {
+        // Default constructor
+    }
+    /**
+     * The entry point for the JavaFX application.
+     *
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         launch(args);
     }
 
+    /**
+     * Initializes the JavaFX application.
+     *
+     * @param primaryStage the primary stage for the application
+     */
     @Override
     public void start(Stage primaryStage) {
         Button button1 = new Button("Logowanie");
@@ -40,11 +59,19 @@ public class Start1 extends Application {
         primaryStage.show();
     }
 
+    /**
+     * Opens the logowanie window.
+     * TODO: Add code to open the logowanie window.
+     */
     public void openLogowanie() {
-        // Kod otwierający okno logowania
+        // TODO: Add code to open the logowanie window
     }
 
+    /**
+     * Opens the rejestracja window.
+     * TODO: Add code to open the rejestracja window.
+     */
     public void openRejestracja() {
-        // Kod otwierający okno rejestracji
+        // TODO: Add code to open the rejestracja window
     }
 }
